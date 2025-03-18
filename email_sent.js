@@ -10,7 +10,7 @@ let Email_Info = nodemailer.createTransport({
 })
 
 let Email_Body={
-    to:["samreenrafiq@aptechnorth.edu.pk","hunainhassan247@gmail.com","zainprogamer766@gmail.com "],
+    to:["samreenrafiq@aptechnorth.edu.pk","hunainhassan247@gmail.com","zainprogamer766@gmail.com"],
     from: process.env.EMAIL,
     subject:"Hello Everyone!",
     html:"<h6>Hi,,<br/>Hope You're Doing Well</h6><p>hehe</p>"
